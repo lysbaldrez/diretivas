@@ -21,9 +21,14 @@ export class NgForComponent implements OnInit {
     { name: "Rio De Janeiro", state: "RJ" },
   ];
 
+  clients = [];
+
   constructor() { }
 
   ngOnInit() {
   }
 
+  save() {
+
+  }
 }

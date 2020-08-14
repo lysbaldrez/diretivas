@@ -13,13 +13,15 @@ import { MatCardModule } from '@angular/material/card';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
-import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatCheckboxModule, MatCheckbox } from '@angular/material/checkbox';
 import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from "@angular/material/divider";
 import { NgForFormComponent } from './ng-for-form/ng-for-form.component';
 import { MatButtonModule } from '@angular/material/button';
+import { NgSwitchComponent } from './ng-switch/ng-switch.component';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 
 
@@ -31,7 +33,8 @@ import { MatButtonModule } from '@angular/material/button';
     NgIfComponent,
     SubNgIfComponent,
     NgForComponent,
-    NgForFormComponent
+    NgForFormComponent,
+    NgSwitchComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +49,8 @@ import { MatButtonModule } from '@angular/material/button';
     MatListModule,
     MatIconModule,
     MatDividerModule,
-    MatButtonModule
+    MatButtonModule,
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
